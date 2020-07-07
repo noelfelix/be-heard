@@ -1,0 +1,14 @@
+.idea
+react-acton-ui.iml
+node_modules
+/tomcat/target/
+/app.war
+/selenium-server.log
+/tests/reports/
+/nightwatch_output/
+/express/package-lock.json
+/combined.log
+/tests/screenshots/
+/coverage/
+/artifact/
+/dist/

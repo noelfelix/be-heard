@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Routes render Routes default 1`] = `
+"<Switch>
+  <Route path=\\"/app/classic\\" />
+  <Route path=\\"/app/features\\" component={[Function]} />
+  <Route path=\\"/\\" exact={true}>
+    <Redirect to=\\"/app/classic/\\" />
+  </Route>
+  <Route path=\\"\\" exact={true}>
+    <Redirect to=\\"/app/classic/\\" />
+  </Route>
+  <Route path=\\"*\\">
+    <Redirect to=\\"/app/classic/404\\" />
+  </Route>
+</Switch>"
+`;
+
+exports[`Routes render Routes for production 1`] = `
+"<Switch>
+  <Route path=\\"/app/classic\\" />
+  <Route path=\\"/\\" exact={true}>
+    <Redirect to=\\"/app/classic/\\" />
+  </Route>
+  <Route path=\\"\\" exact={true}>
+    <Redirect to=\\"/app/classic/\\" />
+  </Route>
+  <Route path=\\"*\\">
+    <Redirect to=\\"/app/classic/404\\" />
+  </Route>
+</Switch>"
+`;

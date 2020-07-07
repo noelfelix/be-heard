@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["es2016", "dom", "dom.iterable"],
+    "module": "commonjs",
+    "jsx": "react",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "strict": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "baseUrl": "./src",
+    "rootDir": ".",
+    "allowSyntheticDefaultImports": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "resolveJsonModule": true
+  },
+  "exclude": [
+    "node_modules",
+    "tests",
+    "build"
+  ],
+  "useBabel": true,
+  "babelOptions": {
+    "babelrc": false,
+    "presets": [
+      [
+        "@babel/preset-typescript",
+        [ "@babel/preset-env", {
+          "targets": {
+            "browsers": [ "last 1 version", "ie >= 11" ]
+          }
+        }]
+      ]
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+@import 'styles/index';
+
+.page-error {
+  display: flex;
+  justify-content: center;
+  font-size: $sub-header-font-size;
+  color: $error;
+  padding: $spacing-unit-x10;
+  align-items: center;
+
+  span {
+    display: block;
+    padding: $spacing-unit;
+  }
+}

@@ -1,0 +1,122 @@
+@import 'styles/index';
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+body,
+html {
+  font-family: $font-regular;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 12px; /* stylelint-disable-line */
+  line-height: $spacing-unit-x2;
+  background-color: $white;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  font-family: $font-regular;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font-size: $large-font-size;
+  line-height: $spacing-unit-x3;
+  color: $gray;
+
+  &:hover {
+    cursor: pointer;
+    color: $text-gray;
+    text-decoration: underline;
+  }
+
+  label {
+    cursor: pointer;
+  }
+}
+
+a {
+  color: $gray;
+  text-decoration: none;
+
+  &:hover {
+    cursor: pointer;
+    color: $text-gray;
+    text-decoration: underline;
+
+    label {
+      cursor: pointer;
+    }
+  }
+}
+
+button:focus,
+a:focus,
+label:focus, {
+  outline: none;
+}
+
+button:focus > label,
+a:focus > label {
+  cursor: pointer;
+  box-shadow: 0 0 0.16rem 0.16rem $browser-highlight; /* keyboard-only focus styles */
+}
+
+.root {
+  display: flex;
+  flex-wrap: nowrap;
+  font-size: 12px; /* stylelint-disable-line */
+}
+
+.app {
+  &__loading {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & svg {
+      animation-timing-function: linear;
+      animation-name: spin;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      width: $spacing-unit-x6;
+      height: $spacing-unit-x6;
+    }
+  }
+
+  &__right {
+    position: relative;
+    flex: 1 1 auto;
+  }
+}
+
+.feature-flag {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  right: $spacing-unit;
+  width: 3rem;
+  height: 3rem;
+  z-index: 1000;
+  font-size: 3rem;
+  line-height: 3rem;
+
+  &:hover {
+    text-decoration: none;
+  }
+}

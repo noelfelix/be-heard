@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageError should render correctly 1`] = `
+"<div className=\\"page-error\\">
+  <img src=\\"/app/images/16warning.gif\\" />
+  <span>
+    OOPS - An unexpected error as occurred.
+  </span>
+</div>"
+`;

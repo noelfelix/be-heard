@@ -1,0 +1,46 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3752311, 2019-04-26T16:26:12-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: HelveticaNowText-Regular by Monotype 
+ * URL: https://www.myfonts.com/fonts/mti/helvetica-now/text-regular/
+ * 
+ * Webfont: HelveticaNowText-It by Monotype 
+ * URL: https://www.myfonts.com/fonts/mti/helvetica-now/text-italic/
+ * 
+ * Webfont: HelveticaNowText-Medium by Monotype 
+ * URL: https://www.myfonts.com/fonts/mti/helvetica-now/text-medium/
+ * 
+ * Webfont: HelveticaNowText-Bold by Monotype 
+ * URL: https://www.myfonts.com/fonts/mti/helvetica-now/text-bold/
+ * 
+ * 
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3752311
+ * Licensed pageviews: 500,000
+ * Webfonts copyright: Copyright © 2019 Monotype Imaging Inc. All rights reserved.
+ * 
+ * © 2019 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/394177");
+
+  
+@font-face {font-family: 'HelveticaNowText-Regular';src: url('webfonts/394177_0_0.eot');src: url('webfonts/394177_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/394177_0_0.woff2') format('woff2'),url('webfonts/394177_0_0.woff') format('woff'),url('webfonts/394177_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'HelveticaNowText-It';src: url('webfonts/394177_1_0.eot');src: url('webfonts/394177_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/394177_1_0.woff2') format('woff2'),url('webfonts/394177_1_0.woff') format('woff'),url('webfonts/394177_1_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'HelveticaNowText-Medium';src: url('webfonts/394177_2_0.eot');src: url('webfonts/394177_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/394177_2_0.woff2') format('woff2'),url('webfonts/394177_2_0.woff') format('woff'),url('webfonts/394177_2_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'HelveticaNowText-Bold';src: url('webfonts/394177_3_0.eot');src: url('webfonts/394177_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/394177_3_0.woff2') format('woff2'),url('webfonts/394177_3_0.woff') format('woff'),url('webfonts/394177_3_0.ttf') format('truetype');}
+ 
